@@ -20,6 +20,6 @@ bool containsDuplicate(vector<int> &nums)
 
 int main()
 {
-    vector<int> nums = {1, 2, 3, 1};
+    vector<int> nums = {1, 2, 3, 1, 5};
     cout << containsDuplicate(nums);
 }
