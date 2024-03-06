@@ -86,8 +86,8 @@ vector<int> productExceptSelf(vector<int> &nums)
 
 int main()
 {
-    // vector<int> a = {1, 2, 3, 4};
-    vector<int> a = {-1, 1, 0, -3, 3};
+    vector<int> a = {1, 2, 3, 4};
+    // vector<int> a = {-1, 1, 0, -3, 3};
     productExceptSelf(a);
 
     for (int i = 0; i < a.size(); i++)
